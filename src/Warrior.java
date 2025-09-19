@@ -6,4 +6,8 @@ public class Warrior {
         this.health = health;
         this.attack = attack;
     }
+
+    public void Attack(Warrior otherWarrior) {
+        otherWarrior.health -= attack;
+    }
 }

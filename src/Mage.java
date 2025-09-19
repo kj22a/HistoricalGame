@@ -1,6 +1,6 @@
 public class Mage extends Warrior {
 
     Mage() {
-        super(40, 20);
+        super(40, 12);
     }
 }

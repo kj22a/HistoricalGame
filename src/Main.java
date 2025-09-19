@@ -8,7 +8,12 @@ public class Main {
         army.addWarrior(archer1);
         army.addWarrior(archer2);
         army.addWarrior(mage1);
+        System.out.println(archer1.health);
+
         int armySize = army.armySize();
         System.out.println("The size of the army is: " + armySize);
+
+        mage1.Attack(archer1);
+        System.out.println(archer1.health);
     }
 }

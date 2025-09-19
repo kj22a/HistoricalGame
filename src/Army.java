@@ -1,17 +1,17 @@
 import java.util.ArrayList;
 
 public class Army {
-    private ArrayList<Warrior> armyList;
+    private ArrayList<Warrior> Warriors;
 
     Army() {
-        this.armyList = new ArrayList<>();
+        this.Warriors = new ArrayList<>();
     }
 
-    public void armyRecruiting(Warrior warrior) {
-        armyList.add(warrior);
+    public void addWarrior(Warrior warrior) {
+        Warriors.add(warrior);
     }
 
     public int armySize() {
-        return armyList.toArray().length;
+        return Warriors.toArray().length;
     }
 }

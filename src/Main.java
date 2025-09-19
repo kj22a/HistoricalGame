@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Archer archer1 = new Archer(100, 5);
-        Archer archer2 = new Archer(150, 4);
-        Mage mage1 = new Mage(40, 12);
+        Archer archer1 = new Archer();
+        Archer archer2 = new Archer();
+        Mage mage1 = new Mage();
 
         Army army = new Army();
         army.addWarrior(archer1);

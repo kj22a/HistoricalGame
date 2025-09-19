@@ -1,6 +1,6 @@
 public class Cavalry extends Warrior {
 
-    Cavalry(int health, int attack) {
-        super(health, attack);
+    Cavalry() {
+        super(250, 2);
     }
 }

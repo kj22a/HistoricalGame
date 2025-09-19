@@ -1,6 +1,6 @@
 public class Archer extends Warrior {
 
-    Archer(int health, int attack) {
-        super(health, attack);
+    Archer() {
+        super(100, 5);
     }
 }

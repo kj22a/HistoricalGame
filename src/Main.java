@@ -14,6 +14,7 @@ public class Main {
         System.out.println("The size of the army is: " + armySize);
 
         mage1.Attack(archer1);
+        mage1.sayAttackPhrase();
         System.out.println(archer1.health);
     }
 }

@@ -9,9 +9,10 @@ public class Warrior {
 
     public void Attack(Warrior otherWarrior) {
         otherWarrior.health -= attack;
+        sayAttackPhrase();
     }
 
-    public void sayAttackPhrase() {
+    protected void sayAttackPhrase() {
         System.out.println("ATTACK!!!");
     }
 }

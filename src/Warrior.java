@@ -15,5 +15,5 @@ public abstract class Warrior {
 
     abstract protected void sayAttackPhrase();
 
-    abstract void sayAttackedPhrase();
+    abstract protected void sayAttackedPhrase();
 }

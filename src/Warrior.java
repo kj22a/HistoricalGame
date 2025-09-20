@@ -1,4 +1,4 @@
-public class Warrior {
+public abstract class Warrior {
     protected int health;
     protected int attack;
 
@@ -7,17 +7,13 @@ public class Warrior {
         this.attack = attack;
     }
 
-    public void Attack(Warrior otherWarrior) {
+    public void attack(Warrior otherWarrior) {
         otherWarrior.health -= attack;
         sayAttackPhrase();
         otherWarrior.sayAttackedPhrase();
     }
 
-    protected void sayAttackPhrase() {
-        System.out.println("ATTACK!!!");
-    }
+    abstract protected void sayAttackPhrase();
 
-    protected void sayAttackedPhrase() {
-        System.out.println("Ouch!");
-    }
+    abstract void sayAttackedPhrase();
 }

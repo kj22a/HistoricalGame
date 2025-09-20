@@ -7,4 +7,8 @@ public class Archer extends Warrior {
     protected void sayAttackPhrase() {
         System.out.println("The Archer says: Die scum!");
     }
+
+    protected void sayAttackedPhrase() {
+        System.out.println("Ouch!");
+    }
 }
